@@ -1,0 +1,104 @@
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.container{
+    background: linear-gradient(to bottom right, #dddad8d5, #f5ca93) ;
+    width: 100vw;
+    height: 120px;
+    padding: 20px;
+}
+
+.encabezado{
+    display: flex;
+    
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+}
+
+.loggin{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.loggin__regsitro{
+    display: flex;
+    flex-direction: row;
+      
+}
+
+.loggin__registro-lista{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.loggin__registro-buttom{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 10px;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 2px;
+    border-radius: 10px;    
+}
+
+.loggin__regsitro-buttom:hover{
+    color: #ddeb1c;
+    transform: scale(1.2);
+}
+
+.icono__carrito{
+    width: 35px;
+    height: 35px;
+}
+
+#cart_menu_num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.menu__navegacion-lista{
+    display: flex;
+}
+
+.menu__navegacion-item{
+    list-style: none;
+}
+
+.menu__navegacion-link{
+    padding: 20px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.menu__navegacion-link:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}

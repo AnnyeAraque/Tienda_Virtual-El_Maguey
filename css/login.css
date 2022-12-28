@@ -1,0 +1,107 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    margin: 10% 20% 0%;
+    width: 60%;
+    height: 400px;
+    background: rgb(252, 252, 252);
+    border-radius: 10px;
+    display: inline-flex;
+    box-shadow: 7px 7px 30px;
+}
+
+.contenedor1{
+    margin: 10% 20% 0%;
+    width: 60%;
+    height: 600px;
+    background: rgb(252, 252, 252);
+    border-radius: 10px;
+    display: inline-flex;
+    box-shadow: 7px 7px 30px;
+}
+
+.contenedor h1, .contenedor1 h1{
+    margin: 20px 0 30px;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.contenedor .elemento, .contenedor1 .elemento {
+    box-shadow: 1px 1px 5px;
+}
+
+.contenedor .elemento input, .contenedor1 .elemento input{
+    width: 90%;
+    padding: 10px 5px;
+    border: none;
+}
+
+.contenedor .elemento input:focus, .contenedor1 .elemento input:focus{
+    width: 98%;
+    box-shadow: #3700ffc5 1px 1px 10px;
+    outline: none;
+}
+
+.contenedor .elemento button[type="submit"], .contenedor1 .elemento button[type="submit"]{
+    width: 100%;
+    background-color: #3700ffc5;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    color: #fff;
+}
+
+.form-login, .welcome-login{
+    display: inline-block;
+}
+
+.welcome-login{
+    width: 45%;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px 0 0 10px;
+    background: linear-gradient(to bottom right, #ff008cc5, #3700ffc5);
+}
+
+.welcome-login h2{
+    margin: 25% 10% 2%;
+    padding: 20px;
+}
+
+.welcome-login h4{
+    margin: 0% 15%;
+    padding: 20px;
+}
+
+.form-login{
+    width: 45%;
+    margin: 5%;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.918);
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+
+.text-forget{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: end;
+    letter-spacing: 0.5px;
+}
