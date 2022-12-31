@@ -1,12 +1,7 @@
-body{
-    font-family: 'Poppins',sans-serif;
-}
-
 .container{
-    background: linear-gradient(to bottom right, #dddad8d5, #f5ca93) ;
-    width: 100vw;
-    height: 120px;
-    padding: 20px;
+    background: linear-gradient(to bottom right, #ffffff, #ee965b) ;
+    width: 100%;
+    height: 115px;
 }
 
 .encabezado{
@@ -44,20 +39,20 @@ body{
     color: #000;
     font-size: 16px;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     background-color: #fff;
     border-bottom: 2px;
     border-radius: 10px;    
 }
 
 .loggin__regsitro-buttom:hover{
-    color: #ddeb1c;
+    color: #e28e2d;
     transform: scale(1.2);
 }
 
 .icono__carrito{
-    width: 35px;
-    height: 35px;
+    width: 33px;
+    height: 33px;
 }
 
 #cart_menu_num {
@@ -76,13 +71,14 @@ body{
 }
 
 .menu{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
+    position: absolute;
+    right: 3rem;
+    top: 90px;
 }
 
 .menu__navegacion-lista{
     display: flex;
+    flex-direction: row;
 }
 
 .menu__navegacion-item{
@@ -90,7 +86,7 @@ body{
 }
 
 .menu__navegacion-link{
-    padding: 20px;
+    padding: 30px;
     text-transform: uppercase;
     color: #000;
     font-weight: bold;
