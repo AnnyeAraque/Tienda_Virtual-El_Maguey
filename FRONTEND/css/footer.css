@@ -16,7 +16,7 @@ footer{
 }
 
 .pie-pagina li{
-    display: inline-block;
+    display: flex;
     padding: 5px;
 }
 

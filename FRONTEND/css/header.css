@@ -1,20 +1,21 @@
 .container{
     background: linear-gradient(to bottom right, #ffffff, #ee965b) ;
     width: 100%;
-    height: 115px;
+    height: 120px;
 }
 
 .encabezado{
     display: flex;
-    
 }
 
 .logo{
     width: 150px;
     height: 100px;
+    padding: 5px;
 }
 
 .loggin{
+    display: flex;
     position: absolute;
     top: 10px;
     right: 20px;
@@ -23,7 +24,6 @@
 .loggin__regsitro{
     display: flex;
     flex-direction: row;
-      
 }
 
 .loggin__registro-lista{
@@ -73,7 +73,7 @@
 .menu{
     position: absolute;
     right: 3rem;
-    top: 90px;
+    top: 85px;
 }
 
 .menu__navegacion-lista{

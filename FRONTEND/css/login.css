@@ -47,13 +47,13 @@ body{
 
 .contenedor .elemento input:focus, .contenedor1 .elemento input:focus{
     width: 98%;
-    box-shadow: #3700ffc5 1px 1px 10px;
+    box-shadow: #b84b03e3 1px 1px 10px;
     outline: none;
 }
 
 .contenedor .elemento button[type="submit"], .contenedor1 .elemento button[type="submit"]{
     width: 100%;
-    background-color: #3700ffc5;
+    background-color: #b84b03e3;
     border: none;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -71,7 +71,7 @@ body{
     text-align: center;
     color: #fff;
     border-radius: 10px 0 0 10px;
-    background: linear-gradient(to bottom right, #ff008cc5, #3700ffc5);
+    background: linear-gradient(to bottom right, #f3bf13c5, #d16308ce);
 }
 
 .welcome-login h2{
