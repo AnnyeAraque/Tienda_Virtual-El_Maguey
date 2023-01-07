@@ -1,23 +1,22 @@
-footer{
+.pie-pagina__container{
     background: #3d3c3d;
     height: 200px;
+    width: 100%;
 }
 
-.pie-pagina{
-    width: 940px;
-    margin: 0 auto;
+.pie-pagina__titulo{
     color: #fff;
-}
-
-.titulo-pie-pagina{
     padding: 20px;
     font-size: 20px;
+    width: 940px;
     margin: 0 auto;
 }
 
-.pie-pagina li{
+.pie-pagina__redes{
     display: flex;
-    padding: 5px;
+    flex-direction: row;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .iconos{
@@ -26,8 +25,8 @@ footer{
     padding: 10px;
 }
 
-.copyrigth{
+.pie-pagina__copyright{
+    text-align: center;
     color: #fff;
     font-size: 20px;
-    text-align: center;
 }
