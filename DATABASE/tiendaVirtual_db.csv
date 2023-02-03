@@ -1,0 +1,21 @@
+﻿id_producto;nombre_producto;precio_producto;info_producto;ref_imagen;cat_producto;estado_catalogo;cantidad
+1;Baulito Rustico;160000;Material: Pino Altura: 22,5 cm Ancho: 26 cm Profundidad: 20 cm Peso: 500 g;IMG_20221130_103047_1;Baules;Disponible;1
+2;Atril Rustico;180000;Material: Cedro Altura: 45,5 cm Ancho: 30,5 cm Profundidad: 37 cm  Peso: 500 g;IMG_20221130_104142;Atriles;Disponible;1
+3;Carreta Botellero;60000;Material: Pino Altura: 14 cm Ancho: 18 cm Profundidad: 40 cm Peso: 100 g;IMG_20221130_105322;Botelleros;Disponible;1
+4;Candelabro;80000;Material: Cedro Altura: 52 cm Ancho: 16,5 cm Profundidad: 16,5 cm  Peso: 500 g;IMG_20221130_105719;Candelabros;Disponible;1
+5;Joyero;70000;Material: Guadua Altura: 16 cm Ancho: 24,5 cm Profundidad: 29 cm Peso: 500 g;IMG_20221130_110503_1;Joyeros;Disponible;1
+6;Repisa de Cartuchos;60000;Material: Cedro Altura: 27,5 cm Ancho: 20,5 cm  Profundidad: 14,5 cm Peso: 250 g;IMG_20221130_110920;Repiasas;Disponible;1
+7;Candelabro Dos Velas;60000;Material: Amarillo Altura: 16,8 cm Ancho: 16,5 cm Profundidad: 18 cm Peso: 500 g;IMG_20221130_112100;Candelabros;Disponible;1
+8;Perchero/Llavero;60000;Material: Cedro Altura: 24,5 cm  Ancho: 34 cm  Profundidad: 2,5 cm Peso: 250 g;IMG_20221130_113305;Percheros;Disponible;1
+9;Cuadro Caballo;380000;Material: Amarillo Altura: 58 cm Ancho: 37 cm Profundidad: 3,5 cm  Peso(g): 1,5 Kg;IMG_20221130_113506;Cuadros;Disponible;1
+10;Servilletero Rustico;12000;Material: Cedro Altura: 10,5 cm Ancho: 12,5 cm Profundidad: 8 cm Peso: 50 g;IMG_20221130_113652;Servilleteros;Disponible;1
+11;Cuadro Girasoles;450000;Material: Cedro Altura: 99 cm Ancho: 40 cm Grosor(cm): 2,2 cm Peso: 2,5 Kg;IMG_20221130_114130;Cuadros;Disponible;1
+12;Cuadro Venados;450000;Material: Cedro Altura: 52,2 cm Ancho: 71,5 cm Grosor: 3,7 cm Peso: 4,5 Kg;IMG_20221130_114708;Cuadros;Disponible;1
+13;Cuadro Garza;350000;Material: Cedro Altura: 73,5 cm Ancho: 36 cm Grosor: 4 cm Peso: 2 Kg;IMG_20221130_114935;Cuadros;Disponible;1
+14;Cuadro Enamorados;450000;Material: Cedro Altura: 45,5 cm Ancho: 48 cm Grosor: 4 cm Peso: 2,5 Kg;IMG_20221130_115154;Cuadros;Disponible;1
+15;Cuadro Ultima Cena;3000000;Material: Cedro Altura: 38,7 cm Ancho: 151 cm Grosor: 5,3 cm Peso: 8 Kg;IMG_20221130_115956;Cuadros;Disponible;1
+16;Atril para Mesa;150000;Material: Cedro y Pino Altura: 36,5 cm Ancho: 42 cm Profundidad: 28 cm Peso: 1,5 Kg;IMG_20221130_121207;Atriles;Disponible;1
+17;Portallaves de Llave;35000;Material: Pino Altura: 12,5 cm Ancho: 36 cm Grosor: 2 cm Peso: 50 g;IMG_20221130_130101;Portallaves;Disponible;1
+18;Frizo;26000;Material: Cedro Altura: 9 cm Ancho: 30 cm Grosor: 1,5 cm Peso: 25 g;IMG_20221130_132003;Frizos;Disponible;1
+19;Perchero Rustico;130000;Material: Pino Altura: 29,5 cm Ancho: 82 cm Profundidad: 21,5 cmPeso: 4 Kg;IMG_20221130_140401;Percheros;Disponible;1
+20;Atril para Biblia;280000;Material: Cedro y Pino Altura: 1 m 32,5 cm Ancho: 55 cm Profundidad(cm): 55 cm Peso: 8 Kg;IMG_20221130_151502;Atriles;Disponible;1
