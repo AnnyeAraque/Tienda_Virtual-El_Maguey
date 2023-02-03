@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos - Mundo del Detalle</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/productos.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
@@ -17,39 +17,12 @@
     <main>
         <div class="productos__container">
             <div class="productos__seccion">
-                <h2 class="titulo__seccion">titulo de la seccion</h2>
-                <p class="descripcion__seccion">descripcion</p>
-                <ul class="productos__seccion-lista">
+                <ul class="productos__seccion-lista" id="section-products">
                     <li class="productos__seccion-item">
                         <a href="vista-producto.html"><img class="producto__imagen" src="imagenes/Productos/IMG_20221130_102748.jpg"></a>
-                        <p class="producto__descripcion">Baulito Rustico</p>
-                        <p class="producto__precio">$ 160,000 COP</p>
-                    </li>
-                    <li class="productos__seccion-item">
-                        <a href="vista-producto.html"><img class="producto__imagen" src="imagenes/Productos/IMG_20221130_104142.jpg"></a>
-                        <p class="producto__descripcion">Atril de mesa</p>
-                        <p class="producto__precio">$180,000 COP</p>
-                    </li>
-                    <li class="productos__seccion-item">
-                        <a href="vista-producto.html"><img class="producto__imagen" src="imagenes/Productos/IMG_20221130_105322.jpg"></a>
-                        <p class="producto__descripcion">Carreta Botellero</p>
-                        <p class="producto__precio">$60,000 COP</p>
-                    </li>
-                    <li class="productos__seccion-item">
-                        <a href="vista-producto.html"><img class="producto__imagen" src="imagenes/Productos/IMG_20221130_105719.jpg"></a>
-                        <p class="producto__descripcion">Candelabro</p>
-                        <p class="producto__precio">$80,000 COP</p>
-                    </li>
-                    <li class="productos__seccion-item">
-                        <a href=""><img class="producto__imagen" src="imagenes/Productos/IMG_20221130_110503_1.jpg"></a>
-                        <p class="producto__descripcion">Joyero Rustico</p>
-                        <p class="producto__precio">$70,000 COP</p>
-                    </li>
-                    <li class="productos__seccion-item">
-                        <a href=""><img class="producto__imagen" src="imagenes/Productos/IMG_20221130_110803.jpg"></a>
-                        <p class="producto__descripcion">Repisa</p>
-                        <p class="producto__precio">$60,000 COP</p>
-                    </li>
+                        <p class="producto__descripcion">Directo</p>
+                        <p class="producto__precio">$10.000</p>
+                     </li>
                 </ul>
             </div>
         
@@ -58,5 +31,12 @@
     </main>
 
     <footer></footer>
+    <script src="js/request.js"></script>
+    <script src="js/producto.js"></script>
+    <script>
+        window.onload = function(){
+           loadData();
+        }
+    </script>
 </body>
 </html>
