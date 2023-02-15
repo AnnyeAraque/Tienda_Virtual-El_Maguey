@@ -1,0 +1,100 @@
+.container{
+    background: linear-gradient(to bottom right, #ffffff, #ee965b) ;
+    width: 100%;
+    height: 120px;
+}
+
+.encabezado{
+    display: flex;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+    padding: 5px;
+}
+
+.loggin{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.loggin__regsitro{
+    display: flex;
+    flex-direction: row;
+}
+
+.loggin__registro-lista{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.loggin__registro-buttom{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 10px;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #fff;
+    border-bottom: 2px;
+    border-radius: 10px;    
+}
+
+.loggin__regsitro-buttom:hover{
+    color: #e28e2d;
+    transform: scale(1.2);
+}
+
+.icono__carrito{
+    width: 33px;
+    height: 33px;
+}
+
+#cart_menu_num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2px;
+}
+
+.menu{
+    position: absolute;
+    right: 3rem;
+    top: 85px;
+}
+
+.menu__navegacion-lista{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu__navegacion-item{
+    list-style: none;
+}
+
+.menu__navegacion-link{
+    padding: 30px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.menu__navegacion-link:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
