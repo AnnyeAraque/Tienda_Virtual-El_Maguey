@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+    <title>Iniciar Sesión</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="welcome-login">
+        <h2>Bienvenido!</h2>
+        <h4>Encuentra aqui diferentes articulos y esculturas unicas talladas a mano</h4>
+      </div>
+      <div class="form-login">
+        <h1>Hola!</h1>
+        <form id="forma" name="forma" method="POST">
+          <div class="elemento">
+            <label for="usuario"></label>
+            <input type="text" id="usuario" name="usuario" required placeholder="Usuario"/>
+          </div>
+          <br/>
+          <div class="elemento">
+            <label for="password"></label>
+            <input type="password" id="password" name="password" required placeholder="Contraseña"/>
+          </div>
+          <br/>
+          <div class="elemento">
+            <button type="submit">Iniciar Sesión</button>
+          </div>
+          <div class="text-forget">
+            <a href="#">¿Olvidaste tu cuenta?</a>
+            <div>
+              <span>¿No tienes cuenta?</span><a href="register.html"> Registrate</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
