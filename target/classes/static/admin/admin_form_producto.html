@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Admin El Maguey</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section class="container pt-5">
+        <div class="row align-items-center mb-4">
+            <span class="fw-bold w-auto">Formulario de Productos</span>
+        </div>
+        <hr/>
+        <div class="row">
+            <form id="form_product" class="mt-4" action="" onsubmit="" method="POST">
+                <input type="hidden" id="product_id"/>
+                <div class="mb-3">
+                    <label for="product_nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="product_nombre" name="product_nombre"/>
+                </div>
+                <div class="mb-3">
+                    <label for="product_info" class="form-label">Información del Producto</label>
+                    <input type="text" class="form-control" id="product_info" name="product_info"/>
+                </div>
+                <div class="mb-3">
+                    <label for="product_price" class="form-label">Precio</label>
+                    <input type="number" class="form-control" id="product_price" name="product_price"/>
+                </div>
+                <div class="mb-3">
+                    <label for="product_ref_img" class="form-label">Referencia de Imagen</label>
+                    <input type="text" class="form-control" id="product_ref_img" name="product_ref_img"/>
+                </div>
+                <div class="mb-3">
+                    <label for="product_disp" class="form-label">Disponibilidad</label>
+                    <input type="number" class="form-control" id="product_disp" name="product_disp"/>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="saveProducto()">Guardar</button>
+            </form>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="../js/request.js"></script>
+    <script src="admin_js/admin_funtions.js"></script>
+    <script>
+        window.onload = function(){
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('id') != null)
+                loadProducto(urlParams.get('id'));
+        }
+    </script>
+    </body>
+</html>

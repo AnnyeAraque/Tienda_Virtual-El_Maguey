@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Admin El Maguey</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section class="container mt-5">
+        <div class="row align-items-center mb-4">
+            <span class="fw-bold w-auto">Administración de Productos</span>
+            <a class="btn btn-primary w-auto" href="/admin/admin_form_producto.html" role="button">Crear Producto</a>
+        </div>
+        <table class="table table-striped table-bordered mt-4">
+            <thead>
+                <tr class="table-primary">
+                    <th scope="col">ID</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Información</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Referencia Imagen</th>
+                    <th scope="col">Estado</th>
+                </tr>
+            </thead>
+            <tbody id="products-table">
+                <tr>
+                    <td>ID</td>
+                    <td>Prueba</td>
+                    <td>Info Prueba</td>
+                    <td>409.099</td>
+                    <td>imagenes/Productos/IMG_20221130_102748.jpg</td>
+                    <td>Disponible</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Editar</button>
+                        <button type="button" class="btn btn-danger">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="../js/request.js"></script>
+    <script src="admin_js/admin_funtions.js"></script>
+    <script>
+        window.onload = function(){
+            loadDataAdmin();
+        }
+    </script>
+    </body>
+</html>
