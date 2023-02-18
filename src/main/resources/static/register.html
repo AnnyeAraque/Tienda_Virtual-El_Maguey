@@ -15,7 +15,8 @@
       </div>
       <div class="form-login">
         <h1>Hola!</h1>
-        <form id="forma" name="forma" method="POST">
+        <form id="forma" name="forma" action="" onsubmit="" method="POST">
+          <input type="hidden" id="id_usuario"/>
           <div class="elemento">
             <label for="nombres"></label>
             <input type="text" id="nombres" name="nombres" required placeholder="Nombres"/>
@@ -33,16 +34,16 @@
           <br/>
           <div class="elemento">
             <label for="password"></label>
-            <input type="password" id="password" name="password" required placeholder="Contraseña"/>
+            <input type="password" id="password1" name="password" required placeholder="Contraseña"/>
           </div>
           <br/>
           <div class="elemento">
             <label for="password"></label>
-            <input type="password" id="password" name="password" required placeholder="Repetir Contraseña"/>
+            <input type="password" id="password2" name="password" required placeholder="Repetir Contraseña"/>
           </div>
           <br/>
           <div class="elemento">
-            <button type="submit">Crear cuenta</button>
+              <button type="button" onclick="saveUsuario()">Crear cuenta</button>
           </div>
           <div class="text-forget">
             <div>
@@ -52,5 +53,7 @@
         </form>
       </div>
     </div>
+      <script src="js/request.js"></script>
+      <script src="js/usuario.js"></script>
   </body>
 </html>

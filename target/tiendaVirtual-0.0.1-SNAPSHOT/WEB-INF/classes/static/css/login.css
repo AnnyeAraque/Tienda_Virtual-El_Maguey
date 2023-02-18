@@ -51,7 +51,7 @@ body{
     outline: none;
 }
 
-.contenedor .elemento button[type="submit"], .contenedor1 .elemento button[type="submit"]{
+.contenedor .elemento button[type="submit"], .contenedor1 .elemento button[type="button"]{
     width: 100%;
     background-color: #b84b03e3;
     border: none;
