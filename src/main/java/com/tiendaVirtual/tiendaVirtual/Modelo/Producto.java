@@ -32,15 +32,6 @@ public class Producto implements Serializable {
         @Column(name="ref_imagen") 
         private String refImagen;
         
-        @Column(name="cat_producto") 
-        private String catProducto;
-        
-        @Column(name="desc_compra_producto") 
-        private Integer descCompraProducto;
-        
-        @Column(name="porcentaje_desc") 
-        private float porcentajeDesc;
-        
         @Column(name="estado_catalogo") 
         private Integer estadoCatalogo;
 
@@ -78,30 +69,6 @@ public class Producto implements Serializable {
 
     public void setRefImagen(String refImagen) {
         this.refImagen = refImagen;
-    }
-
-    public String getCatProducto() {
-        return catProducto;
-    }
-
-    public void setCatProducto(String catProducto) {
-        this.catProducto = catProducto;
-    }
-
-    public Integer getDescCompraProducto() {
-        return descCompraProducto;
-    }
-
-    public void setDescCompraProducto(Integer descCompraProducto) {
-        this.descCompraProducto = descCompraProducto;
-    }
-
-    public float getPorcentajeDesc() {
-        return porcentajeDesc;
-    }
-
-    public void setPorcentajeDesc(float porcentajeDesc) {
-        this.porcentajeDesc = porcentajeDesc;
     }
 
     public Integer getEstadoCatalogo() {

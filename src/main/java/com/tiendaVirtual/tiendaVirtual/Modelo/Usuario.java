@@ -29,23 +29,11 @@ public class Usuario implements Serializable {
         @Column(name="apellidos") 
         private String apellidos;
 
-        @Column(name="tipo_doc_identidad") 
-        private String tipoDocIdentidad;
-
-        @Column(name="num_doc_identidad") 
-        private Integer numDocIdentidad;
-        
-        @Column(name="ciudad") 
-        private String ciudad;
-        
-        @Column(name="barrio") 
-        private String barrio;
+        @Column(name="email") 
+        private String email;
         
         @Column(name="dir_domicilio") 
         private String dirDomicilio;
-        
-        @Column(name="nombre_usuario") 
-        private String nombreUsuario;
         
         @Column(name="password") 
         private String password;
@@ -70,36 +58,12 @@ public class Usuario implements Serializable {
         this.apellidos = apellidos;
     }
 
-    public String getTipoDocIdentidad() {
-        return tipoDocIdentidad;
+    public String getEmail() {
+        return email;
     }
 
-    public void setTipoDocIdentidad(String tipoDocIdentidad) {
-        this.tipoDocIdentidad = tipoDocIdentidad;
-    }
-
-    public Integer getNumDocIdentidad() {
-        return numDocIdentidad;
-    }
-
-    public void setNumDocIdentidad(Integer numDocIdentidad) {
-        this.numDocIdentidad = numDocIdentidad;
-    }
-
-    public String getCiudad() {
-        return ciudad;
-    }
-
-    public void setCiudad(String ciudad) {
-        this.ciudad = ciudad;
-    }
-
-    public String getBarrio() {
-        return barrio;
-    }
-
-    public void setBarrio(String barrio) {
-        this.barrio = barrio;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getDirDomicilio() {
@@ -108,14 +72,6 @@ public class Usuario implements Serializable {
 
     public void setDirDomicilio(String dirDomicilio) {
         this.dirDomicilio = dirDomicilio;
-    }
-
-    public String getNombreUsuario() {
-        return nombreUsuario;
-    }
-
-    public void setNombreUsuario(String nombreUsuario) {
-        this.nombreUsuario = nombreUsuario;
     }
 
     public String getPassword() {

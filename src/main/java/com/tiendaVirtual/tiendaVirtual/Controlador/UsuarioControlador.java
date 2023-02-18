@@ -52,12 +52,8 @@ public class UsuarioControlador {
     if(obj!=null){
         obj.setNombres(usuario.getNombres()); 
         obj.setApellidos(usuario.getApellidos()); 
-        obj.setTipoDocIdentidad(usuario.getTipoDocIdentidad()); 
-        obj.setNumDocIdentidad(usuario.getNumDocIdentidad());
-        obj.setCiudad(usuario.getCiudad());
-        obj.setBarrio(usuario.getBarrio());
+        obj.setEmail(usuario.getEmail());
         obj.setDirDomicilio(usuario.getDirDomicilio());
-        obj.setNombreUsuario(usuario.getNombreUsuario());
         obj.setPassword(usuario.getPassword());
     usuarioservicio.save(obj); }
     else
@@ -79,4 +75,5 @@ public class UsuarioControlador {
     public String info(){ 
         return "Prueba";
     }
+    
 }

@@ -54,9 +54,6 @@ public class ProductoControlador {
         obj.setInfoProducto(producto.getInfoProducto()); 
         obj.setPrecioProducto(producto.getPrecioProducto()); 
         obj.setRefImagen(producto.getRefImagen());
-        obj.setCatProducto(producto.getCatProducto());
-        obj.setDescCompraProducto(producto.getDescCompraProducto());
-        obj.setPorcentajeDesc(producto.getPorcentajeDesc());
         obj.setEstadoCatalogo(producto.getEstadoCatalogo());
     productoservicio.save(obj); }
     else
