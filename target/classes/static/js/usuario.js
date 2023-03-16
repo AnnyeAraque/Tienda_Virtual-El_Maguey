@@ -29,4 +29,22 @@ function passwordSame(p1, p2) {
     }
 }
 
+function loadUserLogin(){
+    let request = sendRequest('/usuarios/list', 'GET', '');
+    console.log(request.response);
+    let email = document.getElementById('usuario').value;
+    let password = document.getElementById('password').value;
+    request.onload = function (){
+        let data = request.response;
+        data.forEach((element, index) => {
+            if (element.email === email && element.password === password){
+                window.location = "index.html";
+                
+            } else{
+                alert('Usuario no registrado');
+            }
+            
+        });
+    };
+}
 

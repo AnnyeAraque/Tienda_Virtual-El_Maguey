@@ -1,7 +1,6 @@
-function loadDataAdmin(){
+function loadDataProductos(){
     let request = sendRequest('/productos/list', 'GET', '');
     let productos = document.getElementById("products-table");
-    console.log(request);
     productos.innerHTML = "";
     request.onload = function(){
         let data = request.response;
@@ -81,7 +80,7 @@ function loadProducto(idproducto){
 function deleteProducto(id){
     let request = sendRequest('/productos/'+id, 'DELETE', '');
     request.onload = function(){
-        loadDataAdmin();
+        loadDataProductos();
     }
 }
 
@@ -94,5 +93,36 @@ function adminInicio(){
         return window.location = '/admin/admin.html';
     } else{
         alert('Credentials are incorrect')
+    }
+}
+
+function loadDataUsers(){
+    let request = sendRequest('/usuarios/list', 'GET', '');
+    let productos = document.getElementById("users-table");
+    productos.innerHTML = "";
+    request.onload = function(){
+        let data = request.response;
+        data.forEach((element, index) => {
+            
+            productos.innerHTML += `
+            
+            <tr>
+                    <td>${element.idUsuario}</td>
+                    <td>${element.nombres}</td>
+                    <td>${element.apellidos}</td>
+                    <td>${element.email}</td>
+                    <td>${element.dirDomicilio}</td>
+                    <td>${element.password}</td>
+                    <td>
+                        <button type="button" class="btn btn-danger">Eliminar</button>
+                    </td>
+            </tr>
+        `
+        });
+    }
+    request.onerror = function(){
+        productos.innerHTML = `
+        <h1>ERROR</h1>
+        `
     }
 }
